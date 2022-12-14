@@ -104,6 +104,7 @@ body {
 .Contact-Me h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    position:relative;
 }
 
 .detel{
@@ -136,11 +137,26 @@ body {
     border-radius: 5px;
 }
 
+#challenge{
+    width: 150px;
+}
  
- 
+.challenge2{
+width: 100px;
+}
 
-
-
-
+img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    }
+    
+img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
 
 
